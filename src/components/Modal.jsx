@@ -6,7 +6,6 @@ const Modal = ({ imageUrl, onClose }) => {
       onClose();
     }
   };
-
   useEffect(() => {
     document.addEventListener('keydown', handleKeyDown);
     return () => {
