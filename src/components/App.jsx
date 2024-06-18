@@ -5,7 +5,7 @@ import ImageGallery from './ImageGallery';
 import Button from './Button';
 import Modal from './Modal';
 
-const API_KEY = '42456544-e55c7a4295ba52a4d79edc728';
+const API_KEY = '44058591-0a089b90b73dabb9c701622b7';
 
 class App extends React.Component {
   constructor(props) {

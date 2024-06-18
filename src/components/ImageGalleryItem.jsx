@@ -6,9 +6,9 @@ const ImageGalleryItem = ({ image, openModal }) => {
   };
 
   return (
-    <a className="gallery-item" onClick={handleImageClick} key={image.id}>
+    <li className="gallery-item" onClick={handleImageClick} key={image.id}>
       <img src={image.webformatURL} alt="" />
-    </a>
+    </li>
   );
 };
 
